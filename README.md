@@ -1,8 +1,8 @@
-# Vesta of Orion
+# Flufffrontier13
 
-This is Vesta of Orion's repository based on the [Baystation12](http://github.com/Baystation12/Baystation12/) codebase.
+This is Flufffrontier13's repository based on the [VestaofOrion](https://github.com/VestaOfOrion/Vesta.Bay) codebase for an unlisted ss13 server.
 
-[Code](https://github.com/VestaOfOrion/Vesta.Bay) - [Organization](https://github.com/VestaOfOrion) - [Discord](https://discord.gg/sBzsswR)
+[Code](https://github.com/EmilitiaEnnehrt/Flufffrontier13) - [Discord](https://discord.gg/wJKwkuTNQE)
 
 ---
 
@@ -22,7 +22,7 @@ Please see [/docs/SECURITY.md](/docs/SECURITY.md) for this repository's security
 
 ### LICENSE
 
-The code for Vesta of Orion is licensed under the [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html), which can be found in full in [/LICENSE](/LICENSE).
+The code for Flufffrontier13 is licensed under the [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html), which can be found in full in [/LICENSE](/LICENSE).
 
 Code with a git authorship date prior to `1420675200 +0000` (2015/01/08 00:00 GMT) is licensed under the GNU General Public License version 3, which can be found in full in [/docs/GPL3.txt](/docs/GPL3.txt)
 
