@@ -19,10 +19,10 @@
 
 	health_hud_intensity = 3
 
-	male_cough_sounds = list('sound/effects/mob_effects/tesharicougha.ogg','sound/effects/mob_effects/tesharicoughb.ogg')
-	female_cough_sounds = list('sound/effects/mob_effects/tesharicougha.ogg','sound/effects/mob_effects/tesharicoughb.ogg')
-	male_sneeze_sound = 'sound/effects/mob_effects/tesharisneeze.ogg'
-	female_sneeze_sound = 'sound/effects/mob_effects/tesharisneeze.ogg'
+	male_cough_sounds = list('sound/voice/tesharicougha.ogg','sound/voice/tesharicoughb.ogg')
+	female_cough_sounds = list('sound/voice/tesharicougha.ogg','sound/voice/tesharicoughb.ogg')
+	male_sneeze_sound = 'sound/voice/tesharisneeze.ogg'
+	female_sneeze_sound = 'sound/voice/tesharisneeze.ogg'
 
 	blood_color = "#D514F7"
 	flesh_color = "#5F7BB0"
@@ -33,11 +33,11 @@
 
 	move_trail = /obj/effect/decal/cleanable/blood/tracks/paw
 
-	icobase = 'icons/mob/human_races/r_teshari.dmi'
-	deform = 'icons/mob/human_races/r_teshari.dmi'
-	damage_overlays = 'icons/mob/human_races/masks/dam_teshari.dmi'
-	damage_mask = 'icons/mob/human_races/masks/dam_mask_teshari.dmi'
-	blood_mask = 'icons/mob/human_races/masks/blood_teshari.dmi'
+	icobase = 'icons/mob/human_races/species/teshari/r_teshari.dmi'
+	deform = 'icons/mob/human_races/species/teshari/r_teshari.dmi'
+	damage_overlays = 'icons/mob/human_races/species/teshari/dam_teshari.dmi'
+	damage_mask = 'icons/mob/human_races/species/teshari/dam_mask_teshari.dmi'
+	blood_mask = 'icons/mob/human_races/species/teshari/blood_teshari.dmi'
 	suit_storage_icon = 'icons/mob/species/teshari/belt_mirror.dmi'
 
 	fire_icon_state = "generic" // Humanoid is too big for them and spriting a new one is really annoying.
