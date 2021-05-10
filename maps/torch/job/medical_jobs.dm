@@ -3,7 +3,7 @@
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
-	minimum_character_age = list(SPECIES_HUMAN = 26)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 45
 	total_positions = 2
 	spawn_positions = 2
@@ -50,7 +50,7 @@
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
-	minimum_character_age = list(SPECIES_HUMAN = 22)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 45
 	total_positions = 1
 	spawn_positions = 1
@@ -94,7 +94,7 @@
 	spawn_positions = 3
 	supervisors = "Physicians and the Chief Medical Officer"
 	economic_power = 7
-	minimum_character_age = list(SPECIES_HUMAN = 19)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 40
 	minimal_player_age = 0
 	alt_titles = list(
@@ -143,7 +143,7 @@
 	spawn_positions = 1
 	supervisors = "Medical personnel, and the Chief Medical Officer"
 	selection_color = "#013d3b"
-	minimum_character_age = list(SPECIES_HUMAN = 18)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 20
 	alt_titles = list(
 		"Corpsman Trainee")
@@ -191,9 +191,9 @@
 	supervisors = "the Chief Medical Officer and Physicians"
 	selection_color = "#013d3b"
 	economic_power = 4
-	minimum_character_age = list(SPECIES_HUMAN = 25)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 30
-	minimal_player_age = 7
+	minimal_player_age = 0
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)
@@ -222,7 +222,7 @@
 	spawn_positions = 1
 	ideal_character_age = 40
 	economic_power = 5
-	minimum_character_age = list(SPECIES_HUMAN = 24)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	minimal_player_age = 0
 	supervisors = "the Chief Medical Officer"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/counselor
