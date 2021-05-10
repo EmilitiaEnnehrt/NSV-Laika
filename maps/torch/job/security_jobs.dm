@@ -4,9 +4,9 @@
 	spawn_positions = 1
 	supervisors = "the Chief of Security"
 	economic_power = 5
-	minimal_player_age = 7
+	minimal_player_age = 0
 	ideal_character_age = 35
-	minimum_character_age = list(SPECIES_HUMAN = 27)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/brig_chief
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -50,8 +50,8 @@
 	spawn_positions = 1
 	supervisors = "the Chief of Security"
 	economic_power = 5
-	minimal_player_age = 7
-	minimum_character_age = list(SPECIES_HUMAN = 25)
+	minimal_player_age = 0
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 35
 	skill_points = 14
 	alt_titles = list(
@@ -106,8 +106,8 @@
 	spawn_positions = 4
 	supervisors = "the Chief of Security"
 	economic_power = 4
-	minimal_player_age = 7
-	minimum_character_age = list(SPECIES_HUMAN = 18)
+	minimal_player_age = 0
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 25
 	alt_titles = list() // This is a hack. Overriding a list var with null does not actually override it due to the particulars of dm list init. Do not "clean up" without testing.
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/maa

@@ -7,7 +7,7 @@
 	supervisors = "the Executive Officer"
 	economic_power = 5
 	minimal_player_age = 0
-	minimum_character_age = list(SPECIES_HUMAN = 27)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 35
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer
 	allowed_branches = list(
@@ -49,7 +49,7 @@
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "the Deck Chief and Executive Officer"
-	minimum_character_age = list(SPECIES_HUMAN = 18)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 24
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/tech
 	allowed_branches = list(
@@ -90,7 +90,7 @@
 	spawn_positions = 2
 	supervisors = "the Deck Chief and the Executive Officer"
 	economic_power = 7
-	minimum_character_age = list(SPECIES_HUMAN = 18)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 25
 	alt_titles = list(
 		"Drill Technician",
