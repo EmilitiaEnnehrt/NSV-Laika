@@ -11,7 +11,7 @@
 	cache_lifespan = 7
 	hub = "Exadv1.spacestation13"
 	icon_size = WORLD_ICON_SIZE
-	fps = 20
+	fps = 20 // If this isnt hard-defined, anything relying on this variable before world load will cry a lot; at least it's what AffectedArc said
 #ifdef GC_FAILURE_HARD_LOOKUP
 	loop_checks = FALSE
 #endif

@@ -62,3 +62,10 @@ var/list/client_preference_stats_
 
 /stat_client_preference/proc/update_name(var/mob/user)
 	name = user.get_preference_value(client_preference)
+
+/client/verb/toggle_runechat() // This reaaally doesn't follow the template of the other stuff, if it works, good, but I expect it not to
+	set name = "Enable/Disable Runechat"
+	set category = "Preferences"
+	set desc = "Toggle runechat messages"
+	prefs.toggles2 ^= PREFTOGGLE_2_RUNECHAT
+	to_chat(src, "You will [(prefs.toggles2 & PREFTOGGLE_2_RUNECHAT) ? "now see" : "no longer see"] floating chat messages.")

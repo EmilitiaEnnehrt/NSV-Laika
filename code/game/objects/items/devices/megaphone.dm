@@ -43,6 +43,9 @@
 		spawn(20)
 			spamcheck = 0
 		return
+		for(var/mob/M in get_mobs_in_view(7, src))
+		if((M.client?.prefs.toggles2 & PREFTOGGLE_2_RUNECHAT) && M.can_hear())
+			M.create_chat_message(user, message, FALSE, "big")
 
 /obj/item/device/megaphone/emag_act(var/remaining_charges, var/mob/user)
 	if(!emagged)

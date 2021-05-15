@@ -676,3 +676,8 @@ proc/dd_sortedTextList(list/incoming)
 		var/atom/A = key
 		if(A.type == T)
 			return A
+
+#define LAZYSET(L, K, V) LAZYINITLIST(L); L[K] = V; // Today on "Somni copy-pastes shit he doesn't fuckin' understand"
+
+#define LAZYADDASSOC(L, K, V) if(!L) { L = list(); } L[K] += list(V);
+#define LAZYREMOVEASSOC(L, K, V) if(L) { if(L[K]) { L[K] -= V; if(!length(L[K])) L -= K; } if(!length(L)) L = null; }
