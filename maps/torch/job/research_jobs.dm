@@ -8,8 +8,8 @@
 	supervisors = "the Chief Science Officer"
 	selection_color = "#633d63"
 	economic_power = 12
-	minimal_player_age = 3
-	minimum_character_age = list(SPECIES_HUMAN = 30)
+	minimal_player_age = 0
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 50
 	alt_titles = list(
 		"Research Supervisor")
@@ -48,7 +48,7 @@
 	spawn_positions = 6
 	supervisors = "the Chief Science Officer"
 	economic_power = 10
-	minimum_character_age = list(SPECIES_HUMAN = 22)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 45
 	minimal_player_age = 0
 	alt_titles = list(
@@ -99,7 +99,7 @@
 	supervisors = "the Chief Science Officer and science personnel"
 	selection_color = "#633d63"
 	economic_power = 3
-	minimum_character_age = list(SPECIES_HUMAN = 18)
+	minimum_character_age = list(SPECIES_HUMAN = 0)
 	ideal_character_age = 30
 	alt_titles = list(
 		"Custodian" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/janitor,
