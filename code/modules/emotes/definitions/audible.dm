@@ -93,11 +93,16 @@
 /decl/emote/audible/clap
 	key = "clap"
 	emote_message_3p = "USER claps."
+	emote_sound = 'sound/misc/clap.ogg'
 
 /decl/emote/audible/chuckle
 	key = "chuckle"
 	emote_message_3p = "USER chuckles."
 
+/decl/emote/audible/golfclap
+	key = "golfclap"
+	emote_message_3p = "User claps sarcastically, wow..."
+	emote_sound = 'sound/misc/golfclap.ogg'
 /decl/emote/audible/cough
 	key = "cough"
 	emote_message_3p = "USER coughs!"
