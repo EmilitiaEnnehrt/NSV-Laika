@@ -101,6 +101,7 @@
 		/decl/emote/audible/whimper,
 		/decl/emote/audible/yawn,
 		/decl/emote/audible/clap,
+		/decl/emote/audible/golfclap
 		/decl/emote/audible/chuckle,
 		/decl/emote/audible/cough,
 		/decl/emote/audible/cry,
@@ -172,6 +173,7 @@
 /mob/living/silicon/robot
 	default_emotes = list(
 		/decl/emote/audible/clap,
+		/decl/emote/audible/golfclap
 		/decl/emote/visible/bow,
 		/decl/emote/visible/salute,
 		/decl/emote/visible/flap,
