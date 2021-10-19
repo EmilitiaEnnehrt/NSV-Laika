@@ -1,4 +1,4 @@
-/var/server_name = "Vesta Of Orion"
+/var/server_name = "Fluff 13"
 
 /var/game_id = null
 /hook/global_init/proc/generate_gameid()
