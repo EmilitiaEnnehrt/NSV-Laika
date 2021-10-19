@@ -54,7 +54,7 @@
 		cheesy_honkers
 			author = "Assistant Editor Carl Ritz"
 			channel_name = "The Gibson Gazette"
-			message = {"Startling reports from Anaxes-IVb have come of large quantities of what has been determined
+			message = {"Startling reports have come from Anaxes-IVb of large quantities of what has been determined
 						to be a derivative compound of spider silk being discovered in areas surrounding a local
 						Vulpkanin colony effort. Colony officials deny knowledge relating to these events, and
 						planetary officials are otherwise at a loss as to the explanation for this."}
