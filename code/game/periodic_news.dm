@@ -54,8 +54,10 @@
 		cheesy_honkers
 			author = "Assistant Editor Carl Ritz"
 			channel_name = "The Gibson Gazette"
-			message = {"Do cheesy honkers increase risk of having a miscarriage? Several health administrations
-						say so!"}
+			message = {"Startling reports from Anaxes-IVb have come of large quantities of what has been determined
+						to be a derivative compound of spider silk being discovered in areas surrounding a local
+						Vulpkanin colony effort. Colony officials deny knowledge relating to these events, and
+						planetary officials are otherwise at a loss as to the explanation for this."}
 			round_time = 60 * 15
 
 		net_block
