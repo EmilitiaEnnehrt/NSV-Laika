@@ -2,7 +2,7 @@
 /client/verb/wiki()
 	set name = "Wiki"
 	set desc = "Visit the wiki."
-	set hidden = 1
+	set hidden = 0
 	if( config.wikiurl )
 		if(alert("This will open the wiki in your browser. Are you sure?",,"Yes","No")=="No")
 			return
@@ -11,7 +11,7 @@
 		to_chat(src, "<span class='warning'>The wiki URL is not set in the server configuration.</span>")
 	return
 
-/client/verb/github()
+/client/verb/github(https://github.com/EmilitiaEnnehrt/NSV-Laika)
 	set name = "GitHub"
 	set desc = "Visit the GitHub repository."
 	set hidden = 1
@@ -26,7 +26,7 @@
 /client/verb/bugreport()
 	set name = "Bug Report"
 	set desc = "Visit the GitHub repository to report an issue or bug."
-	set hidden = 1
+	set hidden = 0
 	if( config.issuereporturl )
 		if(alert("This will open GitHub in your browser. Are you sure?",,"Yes","No")=="No")
 			return
@@ -38,7 +38,7 @@
 /client/verb/forum()
 	set name = "Forum"
 	set desc = "Visit the forum."
-	set hidden = 1
+	set hidden = 0
 	if( config.forumurl )
 		if(alert("This will open the forum in your browser. Are you sure?",,"Yes","No")=="No")
 			return
@@ -59,9 +59,25 @@
 /client/verb/lore_splash()
 	set name = "Lore"
 	set desc = "Links to the beginner Lore wiki."
-	set hidden = 1
+	set hidden = 0
 	show_browser(src, file(LORE_FILE), "window=lore;size=480x320")
 #undef LORE_FILE
+
+/client/verb/discord()
+	set name = "Discord"
+	set desc = "Visit the discord server."
+	set hidden = 0
+	if( config.discordurl )
+		if(alert("This will open the NSV Laika discord server in your browser and/or Discord. Are you sure?",,"Yes","No")=="No")
+			return
+		send_link(src, config.discordurl)
+	else
+		to_chat(src, "<span class='warning'>The discord URL is not set in the server configuration.</span>")
+	return
+	
+/*
+ * https://discord.gg/wJKwkuTNQE
+ */
 
 /client/verb/hotkeys_help()
 	set name = "Hotkeys Help"
