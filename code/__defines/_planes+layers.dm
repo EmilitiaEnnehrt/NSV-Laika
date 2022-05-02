@@ -146,8 +146,8 @@ What is the naming convention for planes or layers?
 	//FLY_LAYER                          5
 	//OBSERVER
 	#define OBSERVER_LAYER              5.1
-
-	#define OBFUSCATION_LAYER           5.2
+	#define CHAT_LAYER					5.2    // Somni here, I think the point is that you can see chat above everything, except when you're obviously not meant to.
+	#define OBFUSCATION_LAYER           5.3
 	#define BASE_AREA_LAYER             999
 
 #define OBSERVER_PLANE             1
